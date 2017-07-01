@@ -1,0 +1,120 @@
+body {
+background-color: #F2F1E8;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color:#FFFFFF;
+  font-size: 1.5em;
+  color:#2B2F26;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around flex-start;
+  width: 100%;
+  padding-top:20px;
+}
+
+.logojar1 {
+  max-height: 50px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+h2 {
+  text-align:center;
+  font-size: 2em;
+}
+
+.top-half {
+  margin: 10px;
+  display:flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  line-height: 400px;
+  color:#F2F1E8;
+  font-weight: bold;
+}
+
+.one {
+  background-image: url("./images/product-1.jpg");
+  width: 50%;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+.two {
+  background-image: url("./images/product-2.jpg");
+  width: 23%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+
+.three {
+  background-image: url("./images/product-3.jpg");
+  width: 24%;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+.bottom-half {
+  margin: 10px;
+  display:flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  line-height: 400px;
+  color:#F2F1E8;
+
+}
+
+.four {
+  background-image: url("./images/product-4.jpg");
+  flex-basis: 19.5%;
+  margin-right:.5%;
+  padding-left: 10px;
+  background-size: cover;
+}
+
+.five {
+  background-image: url("./images/product-5.jpg");
+  flex-basis: 19%;
+  margin-left:.5%;
+  margin-right:.5%;
+  padding-left: 10px;
+  background-size: cover;
+}
+
+.six {
+  background-image: url("./images/product-6.jpg");
+  flex-basis: 39%;
+  margin-left:.5%;
+  margin-right:.5%;
+  padding-left: 10px;
+  background-size: cover;
+}
+
+.seven {
+  background-image: url("./images/product-7.jpg");
+  flex-basis: 19.5%;
+  margin-left:.5%;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #967343;
+  color:#F2F1E8;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
