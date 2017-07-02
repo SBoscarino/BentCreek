@@ -1,7 +1,5 @@
 body {
 background-color: #F2F1E8;
-font-family: 'Merriweather', serif;
-font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -9,26 +7,66 @@ nav {
   font-size: 1.5em;
   color:#2B2F26;
   list-style: none;
+  text-decoration: underline;
+  display:flex;
+  /*flex-direction: row;
+  justify-content: center;
+  justify-content: space-around flex-start;*/
+  width: 100%;
+  /*padding-top:20px;*/
+  font-family: 'Roboto', sans-serif;
+  /*border: 4px solid yellow;*/
+}
+
+.jar {
   display:flex;
   flex-direction: row;
-  justify-content: space-around flex-start;
-  width: 100%;
+  justify-content: left;
+  /*border: 4px solid red;*/
+}
+
+/*#Home, #About, #Newsletter{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10%;
+}*/
+
+li {
+  /*padding-left: 20px;*/
+  padding-right: 50px;
+}
+.wordsinabox {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
   padding-top:20px;
+  /*width: 10%;*/
+  /*border: 4px solid purple;*/
 }
 
 .logojar1 {
+  /*display:flex;
+  align-self: flex-start;*/
   max-height: 50px;
-
+  padding-left: 10px;
 }
 
 h1 {
   text-align: center;
   font-size: 4em;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 h2 {
   text-align:center;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  margin-top:0;
 }
 
 .top-half {
@@ -36,16 +74,25 @@ h2 {
   display:flex;
   flex-flow: row nowrap;
   list-style: none;
-  line-height: 400px;
+  min-height: 400px;
   color:#F2F1E8;
   font-weight: bold;
+  font-size: 25px;
+    font-family: 'Merriweather', serif;
+  /* font background color: 2b2f26*/
 }
 
+p {
+  /*display:flex;*/
+  align-self: flex-end;
+  background-color: #2b2f26;
+  padding: 5px;
+}
 .one {
   background-image: url("./images/product-1.jpg");
   width: 50%;
   background-size: cover;
-  padding-left: 10px;
+  display:flex;
 }
 
 .two {
@@ -54,7 +101,7 @@ h2 {
   margin-left: 1%;
   margin-right: 1%;
   background-size: cover;
-  padding-left: 10px;
+  display:flex;
 }
 
 
@@ -62,7 +109,7 @@ h2 {
   background-image: url("./images/product-3.jpg");
   width: 24%;
   background-size: cover;
-  padding-left: 10px;
+  display:flex;
 }
 
 .bottom-half {
@@ -70,8 +117,11 @@ h2 {
   display:flex;
   flex-flow: row nowrap;
   list-style: none;
-  line-height: 400px;
+  min-height: 400px;
   color:#F2F1E8;
+  font-weight: bold;
+  font-size: 25px;
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -79,8 +129,8 @@ h2 {
   background-image: url("./images/product-4.jpg");
   flex-basis: 19.5%;
   margin-right:.5%;
-  padding-left: 10px;
   background-size: cover;
+  display:flex;
 }
 
 .five {
@@ -88,8 +138,8 @@ h2 {
   flex-basis: 19%;
   margin-left:.5%;
   margin-right:.5%;
-  padding-left: 10px;
   background-size: cover;
+  display:flex;
 }
 
 .six {
@@ -97,8 +147,8 @@ h2 {
   flex-basis: 39%;
   margin-left:.5%;
   margin-right:.5%;
-  padding-left: 10px;
   background-size: cover;
+  display:flex;
 }
 
 .seven {
@@ -106,15 +156,19 @@ h2 {
   flex-basis: 19.5%;
   margin-left:.5%;
   background-size: cover;
-  padding-left: 10px;
+  display:flex;
 }
 
 footer {
-  background-color: #967343;
+  background-color: #2b2f26;
   color:#F2F1E8;
   font-weight: bold;
   font-size: 1.5em;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
+  width: 100%;
 }
+
+/*Also having trouble with getting nav bar to cooperate.
+/* how to get words to bottom and how to get the background behind the words.
